@@ -1,0 +1,62 @@
+Git notes
+
+1)git init
+The git init command is used to initialize a new Git repository in a directory. 
+It sets up the necessary Git configuration files and structures, making the directory a Git-tracked repository.
+Basic ga local project ni remote ga push cheyali ante git init cheste .git folder create avutadhi appudu local folder setup git ki setup ayitadhi.
+
+2)git config --global user.name "SaiRadhaKrishnaJiduguu"
+Used to change the Username of the Git
+E command tho git creds marchutam
+
+3)git config --global user.email "sairadhakrishna03@gmail.com"
+Used to change the Useremail of the Git
+E command tho git creds marchutam
+
+Note:- 
+git config --global user.name "SaiRadhaKrishnaJiduguu"
+git config --global user.email "sairadhakrishna03@gmail.com"
+Rendu Kalipi use cheste creds maripotayi.
+
+4)git status
+More imp command idhi manaki
+-Prati sari git status check chesukovali while pushing the code (before commiting the code files red colour indicate chestadhi,after commiting green colour indicate chestadhi)
+-Indicates Branch Information
+-Shows Staged Files
+-Shows Untracked Files
+
+5)git add 
+git add lo two types 
+a)git add .
+-Anni file changes ni  okkesari commit chesiki use chestam
+b)git add roy.txt
+-Single file changes(roy.txt) ni commit chesiki use chestam.
+
+6)git push
+a)Normal Push--->
+-git push origin branch-name->Push changes to a remote branch
+
+b)Push with Upstream--->
+git push -u origin branch-name--->Set tracking for future push/pull
+
+-u use cheste next direct ga git push or git pull use cheyachu.
+-Pushes the branch and sets upstream tracking, so future pushes/pulls can be done with just git push or git pull.
+
+7)To check the branches
+a)git branch
+Local branches check chesiki(List local branches)
+Konni sarlu remote vunna branches chupiyadhu appudu fetch chesukovali.
+b)git fetch --all	Fetch latest remote branches
+c)git branch -r
+Remote branches check chesiki(List remote branches)
+Repo lo branch delete cheste local vuntadhi ga aa local branch chupiyadhu.Anni remote branches chupistadhi.
+d)git branch -a	List both local & remote branches
+
+8)Deletion of particular branch
+First a branch ki switch ayyi delete cheyali
+git push origin --delete branch-name-
+
+
+
+
+
